@@ -1,0 +1,10 @@
+# Install nodejs
+apt-get install nodejs
+# install node package manager
+apt-get install npm
+# Install forever module 
+npm -g install forever
+ln -s /usr/bin/nodejs /usr/bin/node
+# Run nodejs application forever
+forever start index.js
+forever stop index.js
