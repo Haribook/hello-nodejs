@@ -8,3 +8,12 @@ ln -s /usr/bin/nodejs /usr/bin/node
 # Run nodejs application forever
 forever start index.js
 forever stop index.js
+
+# one more way
+npm install -g pm2
+pm2 start index.js
+
+# Generate start up script for pm2
+pm2 startup ubuntu
+
+run the last commd generated from above command.
