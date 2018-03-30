@@ -17,3 +17,6 @@ pm2 start index.js
 pm2 startup ubuntu
 
 run the last commd generated from above command.
+
+On Mac
+brew install node
